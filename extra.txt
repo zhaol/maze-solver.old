@@ -1,0 +1,12 @@
+fetch pull request
+git fetch origin pull/1/head:1
+
+check list of new files:
+git diff --name-only w > files
+
+check for files
+grep "[a-z]*\.html" files
+
+get line count:
+wc -l < file.txt
+grep -c "." file.txt
